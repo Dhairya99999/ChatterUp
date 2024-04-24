@@ -1,0 +1,73 @@
+
+    /* Custom CSS for styling */
+    #message-list {
+        max-height: calc(70vh - 110px);
+        overflow-y: auto;
+
+    }
+
+    .message.sent {
+        text-align: right;
+    }
+
+    .message.received {
+        text-align: left;
+    }
+
+    /* Adjust message input and send button */
+    #message-input {
+        width: calc(100% - 90px);
+        /* Adjust based on button width */
+    }
+
+    #send-message {
+        width: 80px;
+        /* Adjust based on input width */
+    }
+
+    /* Green dot */
+    .green-dot {
+        width: 10px;
+        height: 10px;
+        background-color: green;
+        border-radius: 50%;
+    }
+
+    /* Text color green */
+    .text-green {
+        color: green;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .avatar-container {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 8px;
+        /* Adjust spacing */
+    }
+
+    .avatar-left {
+        float: left;
+    }
+
+    .avatar-right {
+        float: right;
+    }
+
+    .message-time  {
+        font-size: 13px;
+    }
+
